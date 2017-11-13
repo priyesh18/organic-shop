@@ -16,7 +16,7 @@ Run `cd organic-shop` in terminal
 Run `npm install`  
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.  
 
-##Deploying to Firebase
+## Deploying to Firebase
 Run `ng build --prod --aot=false`  
 Run `firebase deploy`  
  
