@@ -1,6 +1,6 @@
 import { AdminAuthGuard } from './services/admin-auth-guard.service';
 import { RouterModule } from '@angular/router';
-import { DataTableModule } from 'angular-4-data-table';
+import { DataTableModule } from 'angular-4-data-table/src/index';
 import { SharedModule } from './../shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { ProductFormComponent } from './components/product-form/product-form.component';

@@ -2,7 +2,7 @@ import { Product } from '../../../shared/models/product';
 import { Subscription } from 'rxjs/Subscription';
 import { ProductService } from '../../../shared/services/product.service';
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { DataTableResource } from 'angular-4-data-table';
+import { DataTableResource } from 'angular-4-data-table/src/index';
 
 @Component({
   selector: 'app-admin-products',
