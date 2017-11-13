@@ -12,9 +12,14 @@ Before running this application on your machine, create a Firebase project. You 
 ## Running the Application
 
 Clone this repository
-Run `cd organic-shop` in terminal
-Run `npm install` 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
+Run `cd organic-shop` in terminal  
+Run `npm install`  
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.  
+
+##Deploying to Firebase
+Run `ng build --prod --aot=false`  
+Run `firebase deploy`  
+ 
 
 
 
