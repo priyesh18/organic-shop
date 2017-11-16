@@ -19,7 +19,10 @@ export class BsNavbarComponent implements OnInit {
 
   async ngOnInit() { 
     this.auth.appUser$.subscribe(appUser => this.appUser = appUser);
-    this.cart$ = await this.shoppingCartService.getCart();
+    setTimeout(async () => {
+      this.cart$ = await this.shoppingCartService.getCart();
+    }, 5000);
+    
   }
 
   logout() {
